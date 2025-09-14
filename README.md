@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/parthamehta123-mcp-code-reviewer-badge.png)](https://mseep.ai/app/parthamehta123-mcp-code-reviewer)
+
 
 # 🤖 MCP Code Reviewer Demo
 
