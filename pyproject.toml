@@ -1,0 +1,19 @@
+
+[project]
+name = "mcp-code-reviewer"
+version = "0.1.0"
+description = "An MCP server + client that performs AI-powered code review, refactoring suggestions, and test generation."
+authors = [{name = "Your Name"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "mcp[cli]==1.6.0",
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.0.0",
+]
+
+[project.scripts]
+mcp-code-reviewer-server = "mcp_code_reviewer.mcp_server:main"
+mcp-code-reviewer-client = "mcp_code_reviewer.mcp_client:main"
